@@ -1,0 +1,38 @@
+name: tech_cart_demo
+description: A new Flutter project demonstrating state management and animations.
+# Versi ini perlu disesuaikan dengan kebutuhan Anda
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Dependensi standar ikon
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# Bagian ini penting jika Anda ingin menggunakan placeholder gambar 'assets/placeholder.png'
+# seperti yang direferensikan dalam kode AnimatedProductCard.
+flutter:
+  uses-material-design: true
+
+  # Untuk mengaktifkan asset lokal, hapus komentar pada bagian berikut
+  # dan pastikan Anda memiliki folder 'assets' di root proyek Anda.
+  assets:
+    - assets/placeholder.png
+    
+  # Anda juga dapat mendefinisikan font di sini (misalnya 'Inter' yang Anda gunakan)
+  # jika font tersebut bukan bagian dari font sistem:
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
